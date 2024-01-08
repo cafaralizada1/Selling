@@ -1,0 +1,345 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin-top: 10px;
+}
+header .iconHeader {
+  display: flex;
+  gap: 14px;
+}
+header .iconHeader i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 10%;
+  color: #fff;
+  border: 50%;
+  border-radius: 100%;
+  background-color: #000;
+  width: 30px;
+  height: 30px;
+  background: #777;
+  font-size: 13px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+}
+header .iconHeader i:hover {
+  transition: 0.5s;
+  color: orange;
+}
+header .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+header .contact .contactNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 21px;
+}
+header .contact .contactNumber i {
+  font-weight: 800;
+  color: #ffa500;
+  width: 30px;
+  height: 30px;
+  background: #777;
+  font-size: 13px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+}
+header .contact .contactNumber h1 {
+  font-size: 20px;
+}
+header .contact .contactEmail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 21px;
+}
+header .contact .contactEmail i {
+  font-weight: 800;
+  color: #ffa500;
+  width: 30px;
+  height: 30px;
+  background: #777;
+  font-size: 13px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+}
+header .contact .contactEmail h1 {
+  font-size: 20px;
+}
+
+main .nvb {
+  margin-top: 10px;
+  margin-left: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .nvb .sellingClr {
+  color: #000;
+  font-weight: 900;
+}
+main .nvb .sellingClr span {
+  color: #ffa500;
+  font-weight: 900;
+}
+main .nvb .collapseDiv {
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  gap: 21px;
+}
+main .nvb .collapseDiv .list li a:hover {
+  color: #ffa500;
+  transition: 0.5s;
+}
+main #shopWithUs {
+  width: 100%;
+  min-height: 650px;
+  background-image: url("/assets/image/hero_2.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-attachment: fixed;
+}
+main #shopWithUs h1 {
+  font-size: 80px;
+  color: white;
+  font-weight: 700;
+}
+main #shopWithUs p {
+  color: white;
+  font-size: 20px;
+}
+main #shopWithUs .shopBtn {
+  width: 170px;
+  height: 50px;
+  background: transparent;
+  border-color: white;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+main #shopWithUs .shopBtn:hover {
+  background-color: #F1F1F1;
+  color: #000;
+  border: none;
+  transition: 0.5s;
+}
+main #shopWithUs .clubBtn {
+  width: 200px;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 900;
+  border-color: #fff;
+}
+main #shopWithUs .clubBtn:hover {
+  transition: 0.5s;
+  border: none;
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+main #popularProducts {
+  margin-top: 5%;
+  text-align: center;
+}
+main #popularProducts .popularProductsWord h2 {
+  color: gray;
+  font-size: 20px;
+}
+main #popularProducts .popularProductsWord h1 {
+  color: #000;
+  font-weight: 900;
+}
+main #popularProducts .popularProductsCard img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+main #popularProducts .popularProductsCard p {
+  margin-top: 10px;
+  color: #808080;
+}
+main #popularProducts .popularProductsCard .iconCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+main #popularProducts .popularProductsCard .iconCard .star {
+  color: #ffa500;
+}
+main #popularProducts .popularProductsCard .iconCard .heart {
+  color: red;
+}
+main #popularProducts .popularProductsCard .cardButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+main #popularProducts .popularProductsCard .cardButton .cart,
+main #popularProducts .popularProductsCard .cardButton .view {
+  padding: 6px;
+  border: none;
+}
+main #popularProducts .popularProductsCard .cardButton .cart {
+  background-color: #000;
+  color: #fff;
+}
+main #popularProducts .popularProductsCard .cardButton .view {
+  background-color: transparent;
+  color: #000;
+  border-color: #000;
+}
+main #popularProducts .popularProductsCard .cardButton .cart:hover {
+  background-color: transparent;
+  color: #000;
+  border-color: #000;
+  transition: 0.5s;
+}
+main #popularProducts .popularProductsCard .cardButton .view:hover {
+  transition: 0.5s;
+  background-color: #000;
+  color: #fff;
+}
+main #leaderShip {
+  text-align: center;
+  margin-top: 5%;
+}
+main #leaderShip .leaderShipWord p {
+  color: #808080;
+  font-size: 20px;
+}
+main #leaderShip .leaderShipWord h1 {
+  color: #000;
+  font-weight: 900;
+}
+main #leaderShip .leaderShipCard img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+main #leaderShip .leaderShipCard .leaderShipCardIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+main #leaderShip .leaderShipCard .leaderShipCardIcon i {
+  width: 30px;
+  height: 30px;
+  background: #777;
+  font-size: 13px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+}
+main #unitForm {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+main #unitForm h1 {
+  color: #000;
+  font-weight: 900;
+  font-size: 50px;
+}
+main #unitForm .formBtn {
+  margin-top: 10px;
+}
+main #js {
+  margin-top: 5%;
+  text-align: center;
+}
+main #js #card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main #js #card .cardList {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main #js #card .cardList .wishlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main #js #card .cardList img {
+  margin-top: 10px;
+  width: 60%;
+}
+main #js #card .cardList p {
+  font-size: 20px;
+  color: #000;
+  font-weight: 900;
+}
+main #js #card .cardList h1 {
+  font-size: 30px;
+  color: #000;
+  font-weight: 900;
+}
+main #js #card .cardList .jsBtn {
+  padding: 6px;
+  border: 0;
+  border-radius: 50px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+}
+main #js #card .cardList .jsBtn:hover {
+  color: #000;
+  background-color: #ff0000;
+  transition: 0.5s;
+  font-weight: 900;
+}
+main #js #btnnn {
+  margin-top: 10px;
+  padding: 6px;
+  border: 0;
+  border-radius: 50px;
+  background-color: #000;
+  color: #fff;
+}
+main #js #btnnn:hover {
+  transition: 0.5s;
+  color: #000;
+  font-weight: 900;
+  background-color: #ff0000;
+}
+
+footer {
+  margin-top: 5%;
+  text-align: center;
+}
